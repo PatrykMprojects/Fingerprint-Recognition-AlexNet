@@ -54,12 +54,12 @@ def loading_data(path, train):
     return data
 
 # path to datasets on my computer
-Real_path = r"C:\Users\patry\PycharmProjects\AI_efficiency_net\SOCOFing\Real"
-Easy_path = r"C:\Users\patry\PycharmProjects\AI_efficiency_net\SOCOFing\Altered\Altered-Easy"
+Real_path = r"addDirectorytoReal"
+Easy_path = r"addDirectorytoEasy"
 # there are two more datasets that can be used
 # I had to decrease number of images as my computer could not manage such a big dataset
-# Medium_path = r"C:\Users\patry\PycharmProjects\AI_efficiency_net\SOCOFing\Altered\Altered-Medium"
-# Hard_path = r"C:\Users\patry\PycharmProjects\AI_efficiency_net\SOCOFing\Altered\Altered-Hard"
+# Medium_path = r"addDirectorytoMedium"
+# Hard_path = r"addDirectorytoHard"
 
 
 # here we are loading dataset for training and test
