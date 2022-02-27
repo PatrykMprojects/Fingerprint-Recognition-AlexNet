@@ -18,14 +18,14 @@ print("GPU: ", "available" if tf.config.experimental.list_physical_devices("GPU"
 # load datasets as numpy (creator make our life easier and convert images data into one dimensional arrays
 # training dataset for feeding model
 train_images = np.load(
-    r'C:\Users\patry\PycharmProjects\AI_efficiency_net\dataset_FVC2000_DB4_B\dataset\np_data\img_train.npy')
+    r'add_here_pathDirectory_for_train_images')
 train_labels = np.load(
-    r'C:\Users\patry\PycharmProjects\AI_efficiency_net\dataset_FVC2000_DB4_B\dataset\np_data\label_train.npy')
+    r'add_here_pathDirectory_for_train_labels')
 # test dataset with unique fingerprint example that will check accuracy of our model at the end
 test_images = np.load(
-    r'C:\Users\patry\PycharmProjects\AI_efficiency_net\dataset_FVC2000_DB4_B\dataset\np_data\img_real.npy')
+    r'add_here_pathDirectory_for_test_images')
 test_labels = np.load(
-    r'C:\Users\patry\PycharmProjects\AI_efficiency_net\dataset_FVC2000_DB4_B\dataset\np_data\label_real.npy')
+    r'add_here_pathDirectory_for_test_labels')
 
 # shape of images
 print(train_images.shape, train_labels.shape)
